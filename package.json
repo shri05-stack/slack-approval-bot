@@ -1,0 +1,28 @@
+{
+  "name": "slack-approval-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot for managing approval workflows",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "approval",
+    "workflow"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^4.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "slack-approval-bot": "file:"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
